@@ -12,6 +12,13 @@ You need the requests module installed in your system.
     $ pip3 install requests 
 ```
 
+or in Python 2
+
+```
+    $ pip install requests 
+```
+
+
 The you can run: 
 
 ```    

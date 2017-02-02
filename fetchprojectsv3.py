@@ -2,10 +2,10 @@ import requests
 import json
 
 def log_progress(msg):
-    print msg
+    print(msg)
 
 def capture_input(msg):
-    return raw_input(msg)
+    return input(msg)
 
 def login(url, username, password):
     payload = {"username": username, "password": password}
